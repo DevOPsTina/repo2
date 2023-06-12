@@ -4,5 +4,5 @@ jobs:
  job1:
   runs-on: ubuntu-latest
   steps:
-   name: run a single command name on ubuntu machine
-   run: hostname
+   - name: run a single command name on ubuntu machine
+     run: hostname
