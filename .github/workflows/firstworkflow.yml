@@ -18,7 +18,7 @@ jobs:
       echo "running step 3"
       sleep 30
       hostname
-job2:
+ job2:
   runs-on: ubuntu-latest
   steps:
    - name: run a single command name on ubuntu machine
