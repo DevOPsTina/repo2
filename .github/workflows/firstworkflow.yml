@@ -8,3 +8,13 @@ jobs:
   steps:
    - name: run a single command name on ubuntu machine
      run: hostname
+   - name: step2
+     run:
+      echo "running step 2"
+      sleep 30
+      hostname
+   - name: step3
+     run:
+      echo "running step 3"
+      sleep 30
+      hostname
